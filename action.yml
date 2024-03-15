@@ -7,16 +7,16 @@ inputs:
     required: true
   package-name:
     description: >
-      アップロードするパッケージ名を指定します。
+      Specify the name of the package to be uploaded.
     required: true
   service-account-key:
     description: >
-      サービスアカウントキーを指定します。
+      Specify the service account key.
     required: true
   track:
     description: >
-      アップロードするトラックを指定します。
-      有効な値は、alpha、beta、production、internalです。
+      Specifies the track to be uploaded.
+      Valid values are: alpha, beta, production, and internal.
     required: true
 runs:
   using: 'node20'
