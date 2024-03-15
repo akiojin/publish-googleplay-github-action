@@ -1,0 +1,26 @@
+name: 'Publish Google Play'
+description: 'Publish Google Play GitHub action'
+inputs:
+  aab-path:
+    description: >
+      Specify the path of the Android App Bundle file to upload.
+    required: true
+  package-name:
+    description: >
+      アップロードするパッケージ名を指定します。
+    required: true
+  service-account-key:
+    description: >
+      サービスアカウントキーを指定します。
+    required: true
+  track:
+    description: >
+      アップロードするトラックを指定します。
+      有効な値は、alpha、beta、production、internalです。
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+branding:
+  icon: "upload-cloud"
+  color: "orange"
