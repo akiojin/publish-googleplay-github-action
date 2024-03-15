@@ -6,7 +6,7 @@ async function Run(): Promise<void>
 {
   try {
     const auth = new google.auth.GoogleAuth({
-      keyFile: core.getInput('service-account-key'),
+      credentials: JSON.parse(core.getInput('service-account-key')),
       scopes: ['https://www.googleapis.com/auth/androidpublisher'],
     })
 
