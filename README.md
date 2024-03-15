@@ -1,5 +1,17 @@
 # publish-googleplay-github-action
 
+## Usage
+
+```yaml
+- name: 📤 Publish to Google Play Console
+  uses: akiojin/publish-googleplay-github-action@v0.1.2
+  with:
+    aab-path: <aab path>
+    package-name: <package name>
+    service-account-key: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+    track: internal
+```
+
 ## Google Cloud Service Account
 
 To use this action, you must create a service account in Google Cloud and register the created service account in the Google Play Console.
