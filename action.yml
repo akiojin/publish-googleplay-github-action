@@ -9,6 +9,10 @@ inputs:
     description: >
       Specify the name of the package to be uploaded.
     required: true
+  release-note:
+    description: >
+      Specify the release note for the uploaded package.
+    required: false
   service-account-key:
     description: >
       Specify the service account key.
