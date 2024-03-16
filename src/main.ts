@@ -37,7 +37,7 @@ async function Run(): Promise<void>
       requestBody: {
         releases: [
           {
-            name: aabResponse.data.versionCode!.toString(),
+            name: core.getInput('release-name') || aabResponse.data.versionCode!.toString(),
             versionCodes: [aabResponse.data.versionCode!.toString()],
             status: 'completed',
           },

@@ -9,6 +9,10 @@ inputs:
     description: >
       Specify the name of the package to be uploaded.
     required: true
+  release-name:
+    description: >
+      Specify the name of the release.
+    required: false
   release-note:
     description: >
       Specify the release note for the uploaded package.
@@ -22,9 +26,10 @@ inputs:
       Specifies the track to be uploaded.
       Valid values are: alpha, beta, production, and internal.
     required: true
+    default: internal
 runs:
-  using: 'node20'
-  main: 'dist/index.js'
+  using: node20
+  main: dist/index.js
 branding:
-  icon: "upload-cloud"
-  color: "orange"
+  icon: upload-cloud
+  color: orange
