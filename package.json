@@ -29,7 +29,7 @@
     "@commitlint/config-conventional": "19.4.1",
     "@types/node": "22.5.4",
     "@vercel/ncc": "0.38.2",
-    "googleapis": "^143.0.0",
+    "googleapis": "^144.0.0",
     "husky": "9.1.7",
     "rimraf": "5.0.7",
     "typescript": "5.7.2"
