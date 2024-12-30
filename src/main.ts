@@ -39,7 +39,7 @@ async function Run(): Promise<void>
           {
             name: core.getInput('release-name') || aabResponse.data.versionCode!.toString(),
             versionCodes: [aabResponse.data.versionCode!.toString()],
-            status: 'completed',
+            status: core.getInput('status'),
           },
         ],
       },

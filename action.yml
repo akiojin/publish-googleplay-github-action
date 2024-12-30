@@ -21,11 +21,17 @@ inputs:
     description: >
       Specify the service account key.
     required: true
+  status:
+    description: >
+      Specify the status of the uploaded package.
+      Valid values are: completed, draft, halted, inProgress, and stopped.
+    required: false
+    default: completed
   track:
     description: >
       Specifies the track to be uploaded.
       Valid values are: alpha, beta, production, and internal.
-    required: true
+    required: false
     default: internal
 runs:
   using: node20
