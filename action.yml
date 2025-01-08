@@ -16,6 +16,8 @@ inputs:
   release-note:
     description: >
       Specify the release note for the uploaded package.
+
+      see: https://developers.google.com/android-publisher/api-ref/rest/v3/edits.tracks#localizedtext
     required: false
   service-account-key:
     description: >
@@ -24,7 +26,9 @@ inputs:
   status:
     description: >
       Specify the status of the uploaded package.
-      Valid values are: completed, draft, halted, inProgress, and stopped.
+      Valid values are: completed, draft, halted, inProgress, and statusUnspecified.
+
+      see: https://developers.google.com/android-publisher/api-ref/rest/v3/edits.tracks#Status
     required: false
     default: completed
   track:
