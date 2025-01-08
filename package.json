@@ -1,6 +1,6 @@
 {
   "name": "publish-googleplay-github-action",
-  "version": "0.1.14",
+  "version": "1.0.0",
   "description": "Publish Google Play GitHub action",
   "main": "dist/index.js",
   "scripts": {
