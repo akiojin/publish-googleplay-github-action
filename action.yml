@@ -38,8 +38,8 @@ inputs:
     required: false
     default: internal
 runs:
-  using: node20
-  main: dist/index.js
+  using: 'node20'
+  main: 'dist/index.js'
 branding:
-  icon: upload-cloud
-  color: orange
+  icon: 'upload-cloud'
+  color: 'orange'
