@@ -27,7 +27,7 @@
     "@actions/core": "1.11.1",
     "@types/node": "22.13.8",
     "@vercel/ncc": "0.38.3",
-    "googleapis": "^144.0.0",
+    "googleapis": "^146.0.0",
     "rimraf": "6.0.1",
     "typescript": "5.8.2"
   },
