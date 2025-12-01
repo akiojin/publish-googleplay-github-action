@@ -28,7 +28,7 @@
     "@types/node": "22.15.29",
     "@vercel/ncc": "0.38.4",
     "googleapis": "^144.0.0",
-    "rimraf": "6.1.0",
+    "rimraf": "6.1.2",
     "typescript": "5.9.3"
   },
   "private": true
