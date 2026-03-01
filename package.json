@@ -24,7 +24,7 @@
   "homepage": "https://github.com/cloud-creative-studios/publish-googleplay-github-action#readme",
   "dependencies": {},
   "devDependencies": {
-    "@actions/core": "1.11.1",
+    "@actions/core": "3.0.0",
     "@types/node": "22.15.29",
     "@vercel/ncc": "0.38.4",
     "googleapis": "^144.0.0",
